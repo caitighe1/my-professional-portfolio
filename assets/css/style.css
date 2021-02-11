@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header {
+      display: flex;
+      justify-content: center;
+      color: #E9897E;
+      padding: 4%;
+  }
+
+  h1 {
+      font-size: 250%;
+      font-family: 'Inconsolata', monospace;
+
+  }
