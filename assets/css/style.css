@@ -21,23 +21,21 @@
     }
 
     h1 {
-      flex-direction: flex-end;
       padding: 5px;
-    }
+    } 
 
-    .navbar {
+    nav {
       overflow: hidden;
-      float: right;
+      
     }
 
-    .navbar a {
-      
-      display: block;
+    nav a {
       padding: 20px;
       text-decoration: none;
       color: beige;
       font-family: 'Inconsolata', monospace;
       font-size: 175%;
+      float: right;
     }
 
     ul {
@@ -45,16 +43,15 @@
     }
 
   img {
-    max-width: 100%;
-    align-self: center;
-    border: 2px solid darkgrey;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 7px 7px 5px #E9897E
-    
+      border: 2px solid darkgrey;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 180%;
+      box-shadow: 7px 7px 5px #E9897E
+    }
 
-  }
+    
+    
 
   
   
