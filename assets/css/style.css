@@ -1,3 +1,9 @@
+:root {
+  --text-color: beige;
+  --font-family: 'Incosolata, monospace';
+}
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -7,6 +13,9 @@
 
   body {
       background-color: #E9897E;
+      width: 100%;
+      font-family: var(--font-family);
+      margin: 5px;
     }
 
   header {
