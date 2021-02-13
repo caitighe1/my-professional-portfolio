@@ -6,8 +6,10 @@
   }
 
   body {
-      margin: 0 auto;
+      font-family: 'Inconsolata, monospace';
+      font-size:medium;
       background-color: #E9897E;
+      color: beige;
   }
 
   header {
