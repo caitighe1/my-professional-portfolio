@@ -6,47 +6,20 @@
   }
 
   body {
-      padding-top: 0;
       margin: 0 auto;
       background-color: #E9897E;
   }
 
-  .main-header {
+  header {
       font-family: 'Inconsolata', monospace;
       margin: 0 auto;
-      padding: 40px 20px 0px 10px;
-      height: 120px;
+      height: 75px;
       color: beige;
       background-color: #E9897E;
     }
-  
-  .container h1 {
-      font-size: 250%;
-      font-weight: 900;
-      color: beige;
-      font-family: 'Inconsolata', monospace;
-      
-    }
-
-  .main-header h2 {
-      font-size: 100%;
-      float: left;
-
-    }
-
-  .topnav {
-    overflow: hidden;
-    background-color: #E9897E;
-    display: block;
-    padding: 10px;
     
-
-  }
-
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    ul {
+    padding-top: 10px;
     font-family: 'Inconsolata', monospace;
     float: right;
     
@@ -64,11 +37,25 @@
     display: inline;
   }
 
+  .container {
+    background-repeat: no-repeat;
+    background-size: 100px 80px;
+  }
 
-  
-  
-.container {
-      height: 200px;
-      width: 100%;
-      background-color:darkgrey;
+  header h1 {
+    height: 250px;
+    background-color:darkgrey;
+    font-family: 'Inconsolata', monospace;
+    font-size: 225%;
+    color: beige;
+    padding-left: 5px;
+    padding: 20px;
+  }
+
+  img {
+    border-radius: 40px;
+    border: 1px solid #ddd;
+    height: 200px;
+    margin: 25px 25px 25px 25px;
+
   }
