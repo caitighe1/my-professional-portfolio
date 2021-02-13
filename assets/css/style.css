@@ -54,7 +54,7 @@
       font-size: 125%;
     }
 
-    .container {
+    .hero {
       display: flex;
       justify-content: flex-end;
       align-items: flex-end;
