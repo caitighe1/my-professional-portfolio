@@ -13,36 +13,43 @@
   }
 
   header {
-      height: 300px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:space-between;
       background-color:darkgrey;
-      font-family: 'Inconsolata', monospace;
-      color: beige;
-      font-size: 200%;
-      padding: 20px 5px 20px 5px;
+      
       
     }
 
     h1 {
-      padding: 5px;
+      padding: 10px;
+      font-family: 'Inconsolata', monospace;
+      font-size: 75px;
     } 
 
-    nav {
-      overflow: hidden;
+    header nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: baseline;
+      list-style: none;
+      padding: 10px;
+      
       
     }
 
-    nav a {
+    a {
       padding: 20px;
       text-decoration: none;
       color: beige;
       font-family: 'Inconsolata', monospace;
-      font-size: 175%;
-      float: right;
+      font-size: 125%;
     }
 
     ul {
       list-style: none;
     }
+
+    
 
   img {
       border: 2px solid darkgrey;
