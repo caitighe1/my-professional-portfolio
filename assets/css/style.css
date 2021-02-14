@@ -1,9 +1,3 @@
-:root {
-  --color: beige;
-  --font-family: 'Incosolata, monospace';
-}
-
-
 * {
     margin: 0px;
     padding: 0px;
@@ -13,52 +7,39 @@
 
   body {
       background-color: #E9897E;
-      width: 100%;
-      font-family: var(--font-family);
-      margin: 5px;
     }
 
   header {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      height: 70px;
-      width: 100%;
+      padding: 20px;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: 'Inconsolata', monospace;
       background-color: darkgrey;
-    
-  
-    }
+      color: beige;
+     }
 
-    header h1 {
+
+  h1 {
       display: inline-block;
       font-size: 48px;
-      font-family: 'Inconsolata', monospace;
-      color: beige;
+      
     }
 
     header nav {
-      flex: display;
-      justify-content: flex-end;
-      align-items: flex-end;
       padding-top: 15px;
       margin-right: 20px;
       float: right;
       font-family:'Inconsolata', monospace;
-      font-size: 10px;
+      font-size: 20px;
     }
   
-    header nav ul {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: flex-end;
-      align-items: flex-end;
-      list-style: none;
+    ul, li {
+      display: inline-block;
+      margin-left: 25px;
+      list-style-type: none;
     }
   
-    header nav ul li a {
-      padding: 15px;
-      font-family: 'Inconsolata', monospace;
-      font-size: 175%;
+   a {
       text-decoration: none;
       color: beige;
   
@@ -73,16 +54,12 @@
       font-size: 16px;
     }
 
-    #hero {
-        width: 100px;
+    .hero {
+        width: 800px;
         height: 100px;
-        border-radius: 10px;
-        background-image: url(../../assets/images/profile-pic.jpg);
-        left: 30px;
-        bottom: 20px;
-        position: absolute;
+        margin-bottom: 25px;
         background-size: cover;
-        border-radius: 10px;
+        background-position: center;
 
     }
     #tagline h3 {
@@ -91,40 +68,80 @@
         color: beige;        
     }
 
-    main {
-      font-family: 'Inconsolata', monospace;
-      color: beige;
-    }
-
-    .about-me, .work, .contact {
-      display: flex;
-      flex-direction: row;
-      flex: 3, 0;
-    }
-
-    a {
-      padding: 20px;
-      text-decoration: none;
-      color: beige;
-      font-family: 'Inconsolata', monospace;
-      font-size: 125%;
-    }
-
-    .container {
-      display: flex;
+    .content {
       width: 75%;
+      display: inline-block;
       margin-left: 20px;
+    }
+
+    main section {
+      margin-bottom: 20px;
+      padding: 50px;
+      height: 300px;
+      font-family: 'Inconsolata', monospace;
+      background-color: #E9897E;
+      color: beige;
+    }
+
+    main section img {
+      max-height: 200px;
+    }
+
+    .float-left {
+      float: left;
+      margin-right: 25px;
+    }
+
+    .float-right {
+      float: right;
+      margin-left: 25px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      font-size: 36px;
+    }
+
+
+    aside {
+      margin-right: 20px;
+      padding: 20px;
+      clear: both;
+      float: right;
+      width: 20%;
+      height: 100%;
+      font-family: 'Inconsolata', monospace;
+      background-color: #E9897E;
 
     }
-    
-  .aside {
-    text-align: left;
-    border-bottom: 2px solid;
-    margin-bottom: 10px;
-    flex: 1 0;
-  }
 
+    aside section {
+      margin-bottom: 32px;
+      color: beige;
+    }
     
+    aside section h3 {
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    aside section img {
+      display: block;
+      margin: 10px auto;
+      max-width: 150px;
+    }
+
+    footer {
+      padding: 30px;
+      clear: both;
+      font-family: 'Inconsolata', monospace;
+      text-align: center;
+
+    }
+
+    footer h2 {
+      font-size: 20px;
+    }
     
     
 
