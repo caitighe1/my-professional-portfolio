@@ -1,5 +1,5 @@
 :root {
-  --text-color: beige;
+  --color: beige;
   --font-family: 'Incosolata, monospace';
 }
 
@@ -19,25 +19,32 @@
     }
 
   header {
-      padding: 20px;
-      box-sizing:border-box;
-      font-family: 'Inconsolata', monospace;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      height: 70px;
+      width: 100%;
       background-color: darkgrey;
-      color: beige;
+    
   
     }
 
-    h1 {
+    header h1 {
       display: inline-block;
       font-size: 48px;
+      font-family: 'Inconsolata', monospace;
+      color: beige;
     }
 
     header nav {
+      flex: display;
+      justify-content: flex-end;
+      align-items: flex-end;
       padding-top: 15px;
-      margin:right: 20px;
+      margin-right: 20px;
       float: right;
       font-family:'Inconsolata', monospace;
-      font-size: 20px;
+      font-size: 10px;
     }
   
     header nav ul {
@@ -57,17 +64,42 @@
   
     }
 
+    a:hover {
+      opacity: 0.7;
+      color: darkseagreen;
+    }
+
     p {
       font-size: 16px;
     }
 
-    .hero {
-      height: 200px;
-      width: 100%;
-      margin-bottom: 25px;
-      background-size: cover;
-      background-position: center;
-      background-color: darkgrey;
+    #hero {
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        background-image: url(../../assets/images/profile-pic.jpg);
+        left: 30px;
+        bottom: 20px;
+        position: absolute;
+        background-size: cover;
+        border-radius: 10px;
+
+    }
+    #tagline h3 {
+        float: right;
+        font-family: 'Inconsolata', monospace;
+        color: beige;        
+    }
+
+    main {
+      font-family: 'Inconsolata', monospace;
+      color: beige;
+    }
+
+    .about-me, .work, .contact {
+      display: flex;
+      flex-direction: row;
+      flex: 3, 0;
     }
 
     a {
@@ -78,33 +110,21 @@
       font-size: 125%;
     }
 
-    .content {
+    .container {
+      display: flex;
       width: 75%;
-      display: inline-block;
       margin-left: 20px;
 
     }
     
-   
-    main section img {
-      max-height: 200px;
-      border: 2px solid darkgrey;
-      height: 150px;
-      object-fit: cover;
-      border-radius: 10%;
-      box-shadow: 7px 7px 5px #E9897E
-    }
+  .aside {
+    text-align: left;
+    border-bottom: 2px solid;
+    margin-bottom: 10px;
+    flex: 1 0;
+  }
 
-    float-left {
-      float: left;
-      margin-right: 25px;
-    }
-
-    h3 {
-      font-family: 'Inconsolata', monospace;
-      font-size: 175%;
-      color: beige;
-    }
+    
     
     
 
